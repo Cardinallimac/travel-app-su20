@@ -1,5 +1,16 @@
+// Websites here application is
 // https://cis355-su20-travel-app-mac.herokuapp.com/
 // https://git.heroku.com/cis355-su20-travel-app-mac.git
+
+/*
+Commands where you should add to website----------------
+git add . 
+git commit -m "description of change"
+git push origin HEAD:master (to push to git)
+git push heroku HEAD:master (to push to heroku/website)
+
+*/
+
 require('dotenv').config()
 const express = require('express') //imports express
 const fs = require('fs') //imports file system functions
